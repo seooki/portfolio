@@ -1,0 +1,14 @@
+.header {
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  padding: 0 150px;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+
+.header-icons {
+  padding: 5px;
+}

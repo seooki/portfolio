@@ -1,0 +1,44 @@
+.sideContent {
+  padding: 30px;
+  height: 100vh;
+  box-sizing: border-box;
+  padding-top: 47px;
+  border-bottom: 1px solid lightgray;
+  overflow: scroll;
+
+  .footer {
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gray;
+
+    .icons {
+      display: flex;
+
+      ul {
+        padding: 10px;
+        display: flex;
+
+        margin: 0 auto;
+        li {
+          padding: 5px 10px;
+
+          a {
+            color: black;
+
+            &:hover {
+              cursor: pointer;
+              color: gray;
+            }
+          }
+        }
+      }
+    }
+    span {
+      line-height: 22px;
+      margin: 20px auto;
+      display: block;
+      text-align: center;
+    }
+  }
+}

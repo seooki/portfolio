@@ -1,0 +1,11 @@
+.content {
+  display: flex;
+  width: 65%;
+  height: 100vh;
+  float: left;
+  box-sizing: border-box;
+  padding: 80px 30px 30px 30px;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  overflow: scroll;
+}

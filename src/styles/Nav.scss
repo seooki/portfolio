@@ -1,0 +1,29 @@
+.nav {
+  border-right: 1px solid lightgray;
+  display: inline-flex;
+  flex-direction: column;
+  height: 100vh;
+  float: left;
+  padding: 70px 30px 30px 100px;
+  box-sizing: border-box;
+  border-bottom: 1px solid lightgray;
+
+  li {
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 3px 0;
+    display: inline-flex;
+    width: 130px;
+    align-items: center;
+    font-weight: bold;
+
+    .nav-icons {
+      margin-right: 10px;
+    }
+
+    &:hover {
+      background-color: rgba(100, 100, 100, 0.1);
+      cursor: pointer;
+    }
+  }
+}
